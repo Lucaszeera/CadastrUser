@@ -1,14 +1,12 @@
 package br.com.cadastruser.models;
 
 public class Usuario {
-    
     int id;
     String nome;
     int idade;
     String cpf;
     String numero;
     String email;
-
     
     public Usuario(int id, String nome, int idade, String cpf, String numero, String email) {
         this.id = id;
@@ -18,7 +16,7 @@ public class Usuario {
         this.numero = numero;
         this.email = email;
     }
-    
+
     public int getId() {
         return id;
     }

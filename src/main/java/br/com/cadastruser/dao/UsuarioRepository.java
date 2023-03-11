@@ -1,8 +1,8 @@
 package br.com.cadastruser.dao;
-import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
 import br.com.cadastruser.models.Usuario;
 
-public class UsuarioRepository {
-    
-    //List<Usuario> findAll();
+public interface UsuarioRepository extends JpaRepository<Usuario, Long>{
 }
