@@ -1,5 +1,5 @@
 # CadastrUser
-trata-se de um projeto java-web
+trata-se de um projeto java-web Spring
 primeiramente a ideia é criar um projeto web com login e cadastro
 
 
