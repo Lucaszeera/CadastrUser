@@ -23,14 +23,21 @@ public class UsuarioServiceImpl implements UsuarioService{
 
     @Override
     public Usuario getUsuarioById(Long id) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'getUsuarioById'");
+        return usuarioRepository.getById(id);
     }
 
     @Override
     public void insertUsuario(Usuario usuario) {
-        // TODO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'insertUsuario'");
+        usuarioRepository.save(usuario);
+    }
+
+    @Override
+    public void updateUsuario(Usuario usuario){
+        usuarioRepository.save(usuario);
+    }
+
+    public void excluirUsuario(Long id){
+        usuarioRepository.delete(id);
     }
 
 }

@@ -10,4 +10,8 @@ public interface UsuarioService {
     public Usuario getUsuarioById(Long id);
 
     public void insertUsuario(Usuario usuario);
+
+    public void updateUsuario(Usuario usuario);
+
+    public void excluirUsuario(Long id);
 }

@@ -21,6 +21,27 @@ public class UsuarioRepositoryImpl implements UsuarioRepository{
     private EntityManager entityManager;
 
     @Override
+    public List<Usuario> getAll(){
+        //
+        throw new UnsupportedOperationException("Unimplemented method 'findAll'");
+    }
+
+    public Usuario findById(Long id){
+        //
+        throw new UnsupportedOperationException("Unimplemented method 'findAll'");
+    }
+
+    public void save(Usuario usuario){
+        //
+        throw new UnsupportedOperationException("Unimplemented method 'findAll'");
+    }
+    
+    public void delete(Long id){
+        //
+        throw new UnsupportedOperationException("Unimplemented method 'findAll'");
+    }
+
+    @Override
     public List<Usuario> findAll(Sort sort) {
         // TODO Auto-generated method stub
         throw new UnsupportedOperationException("Unimplemented method 'findAll'");
