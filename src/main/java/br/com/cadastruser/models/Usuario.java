@@ -27,7 +27,7 @@ public class Usuario {
     @NotBlank
     private String nome;
     @Min(0)
-    private int idade;
+    private Integer idade;
     @NotBlank @JsonProperty(access = Access.WRITE_ONLY)
     private String cpf;
     private String numero;
