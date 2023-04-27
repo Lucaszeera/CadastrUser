@@ -1,19 +1,26 @@
 # CadastrUser
-trata-se de um projeto java-web Spring
-primeiramente a ideia é criar um projeto web com login e cadastro
+Este é um sistema de cadastro de usuários
+A ideia desse projeto é criar uma aplicação completa que possa realizar CRUD de Usuarios, que contém informações como:
+
+- nome
+- idade
+- email
+- telefone
 
 
-### Endpoints
+
+
+## Endpoints
 ---
 
-### -  Pessoa
+### -  Usuario
 - cadastrar
 - listar todos
 - alterar
 - mostrar detalhes
 
 ---
-## Cadastrar pessoa
+## Cadastrar Usuario
 `POST` /cadastro/api/pessoa
 
 | campo | tipo | obrigatorio | descricao
