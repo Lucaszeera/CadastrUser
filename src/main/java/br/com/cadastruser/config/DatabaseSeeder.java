@@ -18,9 +18,10 @@ public class DatabaseSeeder implements CommandLineRunner{
     @Override
     public void run(String... args) throws Exception {
         usuarioRepository.saveAll(List.of(
-            new Usuario(1L, "Lucas Costa", 19, "08101054484", "11973455655", "lucas.hbrd@gmail.com", "1928")
+            new Usuario(1L, "Lucas", 20, "1222000", "973452", "lucas.hbrd@gmail.com", "0000"),
+            new Usuario(2L, "Ariosvaldo", 40, "11667000", "9721334", "ari@gmail.com", "ari0000")
         ));
-    }
+    };
 
 
 }
