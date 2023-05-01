@@ -1,0 +1,15 @@
+{
+    "version": 2,
+    "builds": [
+        {
+            "src": "./src/main/java/br/com/cadastruser",
+            "use": "@vercel/java-maven"
+        }
+    ],
+    "routes": [
+        {
+        "src": "/(.*)",
+        "dest": "/"
+        }
+    ]
+}
