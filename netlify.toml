@@ -1,4 +1,0 @@
-[[redirects]]
-    from = "/*"
-    to = "/src/main/java/br/com/cadastruser/CadastrUserApplication.java"
-    status = 200
